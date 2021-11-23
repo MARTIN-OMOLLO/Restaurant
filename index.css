@@ -5,8 +5,17 @@
 }
 .nav{
     display: flex;
-    margin-left: 700px;
-    text-decoration-style: none;
+    margin-left: 700px; 
+
+    
+}
+.nav li a{
+    text-decoration:none;
+    color: blue;
+   
+}
+.nav li{ 
+/* list-style: none; */
 }
 .head{
     margin-top: 200px;
@@ -23,9 +32,16 @@
 } 
 button{
     border-radius: 15px;
-    background-color: orangered;
+    background-color: orange;
     text-decoration-color: rgb(255, 255, 255);
     padding: 5px;
+    border: none;
+    transition: all.2s;
+}
+button:hover{
+    transform: scale(1.03);
+    color: yellowgreen;
+    background-color: blue;
 }
 .About{
     display: flex;
@@ -35,4 +51,68 @@ button{
     background-color: orangered;
     height: 2px;
     width: 75px;
+}
+.Menu{
+    text-align: center;
+    background-color: gainsboro;
+}
+.menu{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.Us{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.choose-us{
+    text-align: center;
+    background-color: blanchedalmond;
+}
+.customers{
+    text-align: center;
+    background-color: gainsboro;
+    height: 110vh;
+    margin-top: -10px;
+}
+.people{
+    margin-top: 300px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+   
+}
+.p1{
+    height: 250px;
+    width: 250px;
+    background-color: white;
+}
+.p2{
+    height: 250px;
+    width: 250px;
+    background-color: white;
+}
+.p3{
+    height: 250px;
+    width: 250px;
+    background-color: white;
+}
+.listen{
+    margin-top: 0px;
+}
+#dolar{
+    border: 2px solid orange;
+    height: 50px;
+    width: 50px;
+    background-color: orange;
+    color: white;
+    position: relative;
+    left: 230px;
+    top: -80px;
+
+}
+.one form{
+    width: 900px;
 }
