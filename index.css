@@ -4,9 +4,9 @@
     margin-bottom: 10px;
 }
 .nav{
-    display: flex;
+    display: flex; 
     margin-left: 700px; 
-
+    /* display: inline; */
     
 }
 .nav li a{
@@ -15,7 +15,8 @@
    
 }
 .nav li{ 
-/* list-style: none; */
+list-style: none;
+padding: 10px;
 }
 .head{
     margin-top: 200px;
@@ -113,6 +114,6 @@ button:hover{
     top: -80px;
 
 }
-.one form{
+#one{
     width: 900px;
 }
